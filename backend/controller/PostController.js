@@ -14,7 +14,7 @@ router.post('/home', async (req, res) => {
 
 
     }catch(err){
-        console.log(err)
+        console.log("Error during Post ", err)
 
         res.status(400).send({status: false})
     }
